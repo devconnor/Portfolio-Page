@@ -1,0 +1,112 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+nav {
+	height: 70px;
+}
+
+#main {
+	background: url(harvey.jpg);
+	height: 570px;
+	width: 100%;
+	text-align: center;
+}
+
+nav h1 {
+	color: black;
+	float: left;
+}
+
+ul {
+	text-decoration: none;
+	padding: 20px;
+	float: right;
+}
+
+li {
+	display: inline;
+	list-style: none;
+	margin-right: 30px;
+	font-family: Arial;
+	font-size: 1.23em;
+	color: black;
+}
+
+#banner {
+	padding-top: 150px;
+}
+
+#banner p {
+	font-size: 4.5em;
+}
+
+#banner #desc {
+	font-size: 1.5em;
+}
+
+#leftProfile {
+	float: left;
+	width: 47%;
+	padding: 10px 10px;
+}
+
+#rightProfile {
+	float: right;
+	width: 47%;
+	padding: 10px 10px;
+}
+
+
+
+
+
+#tabs a {
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 1em;
+	color: #000;
+	transition-property: color;
+	transition-duration: .5s;
+}
+#tabs a:hover{
+	transition-property: color;
+	transition-duration: .5s;
+	color: black;
+}
+
+
+.socialTags {
+	margin-top: 30%;
+	padding: 40px 40px;
+	text-align: center;
+	font-size: 1.2em;
+	font-family: Arial;
+
+}
+.socialTags h2 {
+	padding-bottom: 15px; 
+	color: #F8F8FF;
+}
+.socialTags a {
+	transition-property: background-color;
+	transition-duration: .5s;
+	margin-left: 15px;
+	text-decoration: none;
+	padding: 20px 20px;
+	background-color: #F0B452;
+	color: #F8F8FF;
+	font-family: Verdana;
+	border-radius: 6px;
+}
+.socialTags a:hover {
+	transition-property: background-color;
+	transition-duration: .5s;
+	background-color: black;
+}
